@@ -8,10 +8,10 @@ It was designed to run on an LPC1343 and use an XBee 4214a for transmission
 
 Features:
 
-    - Wireless connectivity
-    - Secure against replay attacks by encoding 4 random bytes that the server must mirror
-    - Encrypted communications: uses a very basic encryption scheme of C = P XOR PW but this could easily be
-      switched out for a real encryption system.
+- Wireless connectivity
+- Secure against replay attacks by encoding 4 random bytes that the server must mirror
+- Encrypted communications: uses a very basic encryption scheme of C = P XOR PW but this could easily be
+  switched out for a real encryption system.
 
 Overview of the code:
 
